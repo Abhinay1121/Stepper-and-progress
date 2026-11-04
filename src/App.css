@@ -1,0 +1,50 @@
+.stepper{
+  display:flex;
+      justify-content: space-between;
+      position:relative;
+}
+
+.step{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stepId{
+      border: 2px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #cdc7c752;
+        margin-bottom: 20px;
+}
+
+.step .active{
+  background-color: rgb(26, 82, 201);
+}
+
+.step .complete{
+  background-color: rgb(90, 223, 13);
+}
+
+.progressbar{
+  position:relative;
+  background-color: rgb(141, 133, 133);
+  width: 100%;
+  height:15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.progressbar span{
+  position:absolute;
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+.progressbarstatus{
+background-color: green;
+height: 100%;
+
+}
